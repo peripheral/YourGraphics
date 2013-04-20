@@ -6,7 +6,7 @@ import java.util.Stack;
 
 public class Parser {
 	public enum TOKEN{NAME,ARG,OBJTYPE,OBJECT,LEFTBRACKET,RIGHTBRACKET,
-		LPARANTESIS,RPARANTESIS,STRING,INVALID,NUMBER,EOF}
+		LPARANTESIS,RPARANTESIS,STRING,INVALID,NUMBER,EOF} 
 	public Stack<TOKEN> tokens = new Stack<TOKEN>();
 	public Stack<String> data = new Stack<String>();
 	private Tokenizer tokenizer;
